@@ -1,5 +1,24 @@
-# Vue 3 + TypeScript + Vite
+# Vue.js Frontend Application
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Frontend app built with Vue.js 3, TypeScript, and Tailwind CSS for displaying and searching posts.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Features
+
+- Fetch and display posts from Laravel API
+- Real-time search functionality
+- Paginated results
+- Responsive card-based layout
+- Loading states and error handling
+- Toast notifications
+
+## Project Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ste7/ocm-frontend.git
+cd ocm-frontend
+cp .env.example .env
+npm install
+npm run dev
+```
