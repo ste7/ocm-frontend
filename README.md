@@ -13,8 +13,6 @@ Frontend app built with Vue.js 3, TypeScript, and Tailwind CSS for displaying an
 
 ## Project Setup
 
-### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/ste7/ocm-frontend.git
 cd ocm-frontend
